@@ -4,7 +4,7 @@
 using namespace std;
 
 int main() {
-    string word = "pc"; // Hard-coded word
+    string word = "computer"; // Hard-coded word
     int numGuesses = 10; // Number of guesses allowed
     int numLetters = word.length(); // Number of letters in the word
     string guessedWord(numLetters, '_'); // String to represent the guessed letters
